@@ -2,7 +2,7 @@
 
 # 写在前面
     本人代码能力几乎为0，此项目为一时兴起缝合怪，轻喷。🙇‍♂️
-    special thanks [@0xJacky](https://github.com/0xJacky)
+Special Thanks [0xJacky](https://github.com/0xJacky)
 
 # 效果展示
 ![](https://raw.githubusercontent.com/MOLIzhang/Pass_check/main/IMG_4122.JPEG)
