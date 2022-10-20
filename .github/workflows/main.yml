@@ -17,6 +17,10 @@ jobs:
       - name: Checkout Branch
         uses: actions/checkout@v2
 
+      - name: Install requirements
+        run: |
+          pip install bs4
+
       - name: Working
         env:
           URL: ${{ secrets.URL }}
