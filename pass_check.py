@@ -13,9 +13,9 @@ company_item = soup.find('tr',{'data-field':"field_31"})
 dd = company_item.text.strip().replace("\n","").replace(" ","")
 
 if dd == '通过情况已通过':
-    requests.get('https://api.day.app/%s/自由行申请已通过' % BARKTOKEN)
-else:
     print()
+else:
+    requests.get('https://api.day.app/%s/自由行申请已通过' % BARKTOKEN)
 
 print('运行结束')
 
