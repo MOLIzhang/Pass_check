@@ -11,10 +11,8 @@ on:
     - cron: '0 23 * * *'
 
 jobs:
-  checkin:
+  compress:
     runs-on: ubuntu-latest
-    steps:
-    
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v2
