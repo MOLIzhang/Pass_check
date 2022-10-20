@@ -13,7 +13,7 @@ company_item = soup.find('tr',{'data-field':"field_31"})
 dd = company_item.text.strip().replace("\n","").replace(" ","")
 
 if dd == '通过情况已通过':
-    requests.get('https://api.day.app/%s/自由行申请已通过' % BARKTOKEN)
+    requests.get('https://api.day.app/%s/自由行申请已通过?icon=https://wx2.sinaimg.cn/mw2000/74b9b5ddly8h2top5l7u9j20rh0yzgwh.jpg' % BARKTOKEN)
 else:
     print()
 
