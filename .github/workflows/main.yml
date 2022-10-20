@@ -14,12 +14,11 @@ jobs:
   checkin:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
+    
       - name: Set up Python
         uses: actions/setup-python@v1
         with:
-          python-version: 3.10.8
+          python-version: 3.10
 
       - name: Working
         env:
