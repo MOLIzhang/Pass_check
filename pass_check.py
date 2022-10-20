@@ -16,6 +16,6 @@ if dd == '通过情况已通过':
 else:
     print()
 
-
+print('运行结束')
 
 #print(dd)
